@@ -8,4 +8,4 @@ app.use(compress());
 // Serve up content from public directory
 app.use(express.static(__dirname + '/public'));
 
-app.listen(process.env.PORT || 8000);
+app.listen(process.env.PORT || 9000);
